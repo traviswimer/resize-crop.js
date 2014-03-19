@@ -18,6 +18,7 @@ module.exports = function( options, callback ) {
 	// Default config
 	var config = {
 		format: "png",
+		gravity: "center",
 		src: false,
 		dest: false,
 		height: 0,
@@ -73,7 +74,7 @@ module.exports = function( options, callback ) {
 				var cropconfig = {
 					srcPath: dest,
 					dstPath: dest,
-					gravity: "center",
+					gravity: config.gravity,
 					height: config.height,
 					width: config.width
 				};
@@ -87,7 +88,7 @@ module.exports = function( options, callback ) {
 			callback(e, null);
 		}
 
-	};
+	}
 
 
 

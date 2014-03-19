@@ -30,11 +30,6 @@ resizeCrop(
 
 ## Documentation
 
-### options.format
-
-* Type: `String`
-* Default: `"png"`
-* Description: Sets the image type to output. Supporst any image format supported by [imagemagick](https://github.com/rsms/node-imagemagick)
 
 ### options.src
 
@@ -60,8 +55,13 @@ resizeCrop(
 * Type: `integer`
 * Description: Sets the width in pixels to be used for the output image.
 
+### options.format
+
+* Type: `String`
+* Default: `"png"`
+* Description: Sets the image type to output. Supporst any image format supported by [imagemagick](https://github.com/rsms/node-imagemagick)
+
 ### options.gravity
 
-* REQUIRED OPTION
 * Type: `string`
 * Description: Determines the part of the image that will be removed during cropping. For example, `"center"` will try to keep the centermost part of the image and only remove the furthest edges.

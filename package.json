@@ -25,7 +25,8 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "ci": "grunt test && grunt coveralls"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",

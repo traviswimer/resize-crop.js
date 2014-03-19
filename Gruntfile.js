@@ -67,10 +67,8 @@ module.exports = function(grunt) {
 
 		coveralls: {
 			options: {
+				src: 'tests/coverage/reports/lcov.info',
 				force: true
-			},
-			all: {
-				src: 'reports/lcov.info'
 			}
 		},
 

@@ -1,7 +1,7 @@
 {
   "name": "resize-crop",
   "description": "Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/traviswimer/resize-crop.js",
   "author": {
     "name": "Travis Wimer",

@@ -26,7 +26,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "ci": "grunt test && grunt coveralls"
+    "ci": "grunt test --stack && grunt coveralls"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",

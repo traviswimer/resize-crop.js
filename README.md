@@ -1,4 +1,4 @@
-# resize-crop.js
+# resize-crop.js [![Build Status](https://travis-ci.org/traviswimer/resize-crop.js.png?branch=master)](https://travis-ci.org/traviswimer/resize-crop.js) [![Coverage Status](https://coveralls.io/repos/traviswimer/resize-crop.js/badge.png)](https://coveralls.io/r/traviswimer/resize-crop.js)
 
 > Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.
 

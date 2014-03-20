@@ -1,7 +1,7 @@
 {
   "name": "resize-crop",
   "description": "Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/traviswimer/resize-crop.js",
   "author": {
     "name": "Travis Wimer",
@@ -42,12 +42,9 @@
     "grunt-contrib-watch": "~0.6.0"
   },
   "keywords": [
-    "open graph protocol",
-    "twitter cards",
-    "schema",
     "images",
-    "social media",
-    "meta tags"
+    "resize",
+    "crop"
   ],
   "dependencies": {
     "imagemagick": "~0.1.3",

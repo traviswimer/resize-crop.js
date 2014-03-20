@@ -1,0 +1,4 @@
+# This file exists solely to make sure the "tmp" directory is included by git
+# and can be found by travis-ci tests
+*
+!.gitignore

@@ -40,11 +40,6 @@ module.exports = function( options, callback ) {
 		// Get original image dimensions
 		var srcDimensions = imageSize( src );
 
-		// Pull out file name from path and remove extension
-		var filename = src.replace(/^.*[\\\/]/, '');
-		filename = (filename.split("."))[0];
-
-
 		var newFilePath = dest;
 
 
